@@ -8,15 +8,15 @@ class Stack:
         return len(self.items)==0
 
     def is_full(self):
-       return len( self.items)==0
+        return len( self.items)==0
 
     def push(self, data):
         if not self.is_full():
-              self.items.push(data)
+            self.items.push(data)
 
     def pop(self):
         if not self.is_empty():
-              self.item.pop(-1)
+            self.item.pop(-1)
 
     def status(self):
         for element in self.items:
